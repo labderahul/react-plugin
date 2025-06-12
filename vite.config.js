@@ -31,11 +31,11 @@ export default defineConfig({
       }
     }
   },
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@use "@puppet/react-components/source/scss/library/ui" as *; @use "@puppet/sass-variables/index" as *;`
-      }
-    }
-  }
+  // css: {
+  //   preprocessorOptions: {
+  //     scss: {
+  //       additionalData: `@use "@puppet/react-components/source/scss/library/ui" as *; @use "@puppet/sass-variables/index" as *;`
+  //     }
+  //   }
+  // }
 })
