@@ -1,8 +1,12 @@
 {
-  "name": "worker-name", // Replace with your actual project name
-  "type": "webpack", // or "javascript" / "module" / "site" depending on usage
+  "name": "react-plugin",
+  "type": "webpack",
   "compatibility_date": "2025-06-12",
   "site": {
     "bucket": "./dist"
-  }
+  },
+  "build": {
+    "command": "npm run build"
+  },
+  "main": "dist/preact-plugin.iife.js"
 }
